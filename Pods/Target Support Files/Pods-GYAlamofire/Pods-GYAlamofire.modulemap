@@ -1,0 +1,6 @@
+framework module Pods_GYAlamofire {
+  umbrella header "Pods-GYAlamofire-umbrella.h"
+
+  export *
+  module * { export * }
+}
