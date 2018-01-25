@@ -79,6 +79,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		861139AE2016278E00899468 /* GYAlamofire */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GYAlamofire;
+			sourceTree = "<group>";
+		};
 		86A84839201610C500EAE9FD = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +111,7 @@
 		86A84844201610C500EAE9FD /* GYAlamofire */ = {
 			isa = PBXGroup;
 			children = (
+				861139AE2016278E00899468 /* GYAlamofire */,
 				86A84845201610C500EAE9FD /* AppDelegate.swift */,
 				86A84847201610C500EAE9FD /* ViewController.swift */,
 				86A84849201610C500EAE9FD /* Main.storyboard */,
