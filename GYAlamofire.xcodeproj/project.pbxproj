@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68FCB752201AC1F90081EB6B /* LoggingSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FCB751201AC1F90081EB6B /* LoggingSessionDelegate.swift */; };
+		68FCB754201AC3900081EB6B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FCB753201AC3900081EB6B /* User.swift */; };
+		68FCB756201ACB430081EB6B /* AccessTokenAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FCB755201ACB430081EB6B /* AccessTokenAdapter.swift */; };
+		68FCB758201ACCF00081EB6B /* OAuth2Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FCB757201ACCF00081EB6B /* OAuth2Handler.swift */; };
 		86A2D6C26A9CC4A2FE5DBD1E /* Pods_GYAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CB6A90198461532907E87F /* Pods_GYAlamofire.framework */; };
 		86A84846201610C500EAE9FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A84845201610C500EAE9FD /* AppDelegate.swift */; };
 		86A84848201610C500EAE9FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A84847201610C500EAE9FD /* ViewController.swift */; };
@@ -36,6 +40,10 @@
 
 /* Begin PBXFileReference section */
 		61CB6A90198461532907E87F /* Pods_GYAlamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GYAlamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FCB751201AC1F90081EB6B /* LoggingSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingSessionDelegate.swift; sourceTree = "<group>"; };
+		68FCB753201AC3900081EB6B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		68FCB755201ACB430081EB6B /* AccessTokenAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenAdapter.swift; sourceTree = "<group>"; };
+		68FCB757201ACCF00081EB6B /* OAuth2Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuth2Handler.swift; sourceTree = "<group>"; };
 		6D75CB3E10A9039DC3311D0B /* Pods-GYAlamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYAlamofire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GYAlamofire/Pods-GYAlamofire.debug.xcconfig"; sourceTree = "<group>"; };
 		86A84842201610C500EAE9FD /* GYAlamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYAlamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A84845201610C500EAE9FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,9 +87,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		861139AE2016278E00899468 /* GYAlamofire */ = {
+		68FCB750201AC0D20081EB6B /* GYAlamofire */ = {
 			isa = PBXGroup;
 			children = (
+				68FCB751201AC1F90081EB6B /* LoggingSessionDelegate.swift */,
+				68FCB753201AC3900081EB6B /* User.swift */,
+				68FCB755201ACB430081EB6B /* AccessTokenAdapter.swift */,
+				68FCB757201ACCF00081EB6B /* OAuth2Handler.swift */,
 			);
 			path = GYAlamofire;
 			sourceTree = "<group>";
@@ -111,7 +123,7 @@
 		86A84844201610C500EAE9FD /* GYAlamofire */ = {
 			isa = PBXGroup;
 			children = (
-				861139AE2016278E00899468 /* GYAlamofire */,
+				68FCB750201AC0D20081EB6B /* GYAlamofire */,
 				86A84845201610C500EAE9FD /* AppDelegate.swift */,
 				86A84847201610C500EAE9FD /* ViewController.swift */,
 				86A84849201610C500EAE9FD /* Main.storyboard */,
@@ -348,6 +360,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68FCB756201ACB430081EB6B /* AccessTokenAdapter.swift in Sources */,
+				68FCB754201AC3900081EB6B /* User.swift in Sources */,
+				68FCB752201AC1F90081EB6B /* LoggingSessionDelegate.swift in Sources */,
+				68FCB758201ACCF00081EB6B /* OAuth2Handler.swift in Sources */,
 				86A84848201610C500EAE9FD /* ViewController.swift in Sources */,
 				86A84846201610C500EAE9FD /* AppDelegate.swift in Sources */,
 			);
